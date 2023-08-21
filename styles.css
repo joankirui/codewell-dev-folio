@@ -1,0 +1,242 @@
+body.body{
+    background-color: rgb(13, 13, 13);
+    overflow-x: hidden;
+}
+button.getintouch{
+    background-color: rgb(255, 217, 0);
+    border: none;
+    padding: 12px 23px;
+    font-size: 15px;
+}
+div.navigation{
+    margin-top: 28px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+a.navbar-brand{
+    color: rgb(191, 191, 191);
+    font-family: 'Prata', serif;
+}
+a.navbar-brand:hover, a.navbar-brand:visited, a.navbar-brand:active{
+    color: rgb(191, 191, 191);
+}
+ul.navbar-nav> li >a{
+    color: rgb(140, 140, 140);
+}
+ul.navbar-nav> li >a:hover, ul.navbar-nav> li >a:visited, ul.navbar-nav> li >a:active{
+    color: rgb(140, 140, 140);
+}
+p.header{
+    color: rgb(217, 217, 217);
+    font-family: 'Prata', serif;
+    font-size: 50px;
+}
+p.paragraph{
+    color: rgb(140, 140, 140);
+    font-family: 'Inter', sans-serif;
+}
+div.intro{
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+div.logos{
+    margin-top: 65px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+div.section2{
+    margin-top: 90px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+p.section2header{
+    color: rgb(217, 217, 217);
+    font-family: 'Prata', serif;
+    font-size: 35px;
+    padding-top: 15px;
+}
+button.navbar-toggler{
+    background-color: white;
+}
+p.section3header{
+    color: rgb(217, 217, 217);
+    font-family: 'Prata', serif;
+    font-size: 35px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+p.section3p{
+    color: rgb(140, 140, 140);
+    font-family: 'Inter', sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+div.section3{
+    background-color: rgb(51, 51, 60);
+    padding-top: 45px;
+    margin-top: 45px;
+}
+div.contact{
+    padding-top: 45px;
+}
+button.contact{
+    background-color: rgba(255, 217, 0, 0.686);
+    border: none;
+    padding: 12px 23px;
+    font-size: 15px;
+    margin-left: 70px;
+}
+div.footer{
+    margin-top: 65px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    background-color: rgb(51, 51, 60);
+}
+div.footer> p.footerp{
+    font-family: 'Prata', serif;
+    color: rgb(191, 191, 191);
+    float: left;
+    margin-left: 70px;
+}
+div.footer> div.footer-content-right{
+   float: right;
+   padding-right: 130px;
+}
+div.footer> div.footer-content-right> img.icon-style {
+    height:25px;
+    margin-left:15px;
+    margin-top:5px;
+  }
+
+  /* mobile view responsiveness */
+@media only screen and (max-width: 767.98px) {
+    div.navigation{
+        margin-top: 28px;
+        font-family: 'Inter', sans-serif;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    div.intro{
+        margin-top: 70px;
+        margin-left: 20px;
+        margin-right: 18px;
+    }
+    p.header{
+        color: rgb(217, 217, 217);
+        font-family: 'Prata', serif;
+        font-size: 30px;
+    }
+    p.paragraph{
+        color: rgb(140, 140, 140);
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+    }
+    div.section2{
+        margin-top: 90px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 20px;
+    }
+    div.section3{
+        padding-top: 65px;
+        margin-top: 45px;
+        padding-bottom: 55px;
+    }
+    div.contact{
+        padding-top: 85px;
+        padding-bottom: 20px;
+    }
+    p.section3header{
+        color: rgb(217, 217, 217);
+        font-family: 'Prata', serif;
+        font-size: 35px;
+        margin-left: 20px;
+        
+    }
+    p.section3p{
+        color: rgb(140, 140, 140);
+        font-family: 'Inter', sans-serif;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    button.contact{
+        padding: 12px 23px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    div.footer> p.footerp{
+        font-family: 'Prata', serif;
+        color: rgb(191, 191, 191);
+        float: left;
+        margin-left: -45px;
+    } 
+}
+  /* Tablet view responsiveness */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    div.navigation{
+        margin-top: 28px;
+        font-family: 'Inter', sans-serif;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    div.intro{
+        margin-top: 45px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    div.section2{
+        margin-top: 90px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-bottom: 20px;
+    }
+    p.section2header{
+        color: rgb(217, 217, 217);
+        font-family: 'Prata', serif;
+        font-size: 30px;
+        margin-left: 25px;
+        
+    }
+    p.paragraph{
+        color: rgb(140, 140, 140);
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+    }
+    div.section3{
+        padding-top: 55px;
+        margin-top: 45px;
+        padding-bottom: 40px;
+    }
+    p.section3header{
+        color: rgb(217, 217, 217);
+        font-family: 'Prata', serif;
+        font-size: 30px;
+        margin-left: 25px;
+        
+    }
+    p.section3p{
+        color: rgb(140, 140, 140);
+        font-family: 'Inter', sans-serif;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 16px;
+    }
+    div.contact{
+        padding-top: 70px;
+        padding-bottom: 8px;
+    }
+    button.contact{
+        padding: 11px 23px;
+        font-size: 17px;
+        margin-left: 25px;
+    }
+    div.footer> p.footerp{
+        font-family: 'Prata', serif;
+        color: rgb(191, 191, 191);
+        float: left;
+        margin-left: -40px;
+    } 
+} 
